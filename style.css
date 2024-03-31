@@ -1,0 +1,358 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.all-container {
+display: flex;
+flex-direction: row;
+}
+
+
+.container-kiri {
+background-color: burlywood;
+border-radius: 10px;
+width: 25%;
+height: 100vh;
+position: relative;
+left: 0%;
+right: 0%;
+top:0%;
+bottom: 0%;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.isi-container-kiri {
+background-color: antiquewhite;
+padding: 5px;
+width:95%;
+height: 65%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 250px;
+top:150px;
+flex-direction: column;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+
+}
+
+
+
+.image {
+    width: 200px;
+    height: 300px;
+    border-radius: 80%;
+    position: relative;
+    top : -45px;
+
+}
+
+.text-container-kiri {
+    font-size: 35px;
+    position: relative;
+    bottom: 10px;
+    left: 65px;
+    font-family: Helvetica;
+    
+}
+
+.text-container-kiri2 {
+    font-size: 25px;
+    font-family: Helvetica;
+    position: relative;
+    top: 40px;
+
+}
+
+.container-kanan {
+background-color: wheat;
+width: 75%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.container-kanan>h1 {
+    position: relative;
+    right: 260px;
+
+}
+
+
+
+
+.container-kanan>h3 {
+    position: relative;
+    right: 25px;
+}
+ 
+.text-container-kanan1 {
+    
+    font-size: 100px;
+
+}
+
+.text-container-kanan2 {
+    
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+
+.navbar-container {
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+    right : 25px;
+    
+   
+    
+}
+
+.navbar {
+    margin: 20px;
+    font-size: x-large;
+    list-style-type: none;
+    font-family:Helvetica;
+
+    
+}
+
+
+.a-navbar{
+    color: black;
+    text-decoration: none;
+}
+.navbar:hover {
+    background-color: antiquewhite;
+    transition: .2s ease-in-out;
+    transition-delay: .0s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    text-decoration: none;
+}
+
+
+/* css Tentang saya */
+
+
+body {
+ background-color: wheat;
+
+}
+
+.container-navbar-tentangsaya {
+width: 100%;
+height: 10vh;
+background-color: burlywood;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+    
+
+
+
+.content-tentangsaya {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80vh;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.image2 {
+    height: 300px;
+    width: 300px;
+}
+
+.judul-paragraf {
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 90px;
+    padding-right:90px ;
+    text-align: justify;
+    font-size:40px;
+    font-family: Helvetica;
+    position: relative;
+    bottom : 80px;
+
+
+}
+
+.paragraf {
+    margin: 5px;
+    padding: 5px;
+    padding-left: 90px;
+    padding-right:90px ;
+    text-align: justify;
+    font-size:30px;
+    font-family: Arial;
+    position: relative;
+    bottom : 25px;
+}
+
+.image-container-tentangsaya {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.image-ui {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right :100px;
+    top: 50px;
+    
+}
+
+.image-bakrie {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+
+}
+
+/* css kontak */
+
+.judul-paragraf-kontak {
+justify-content: center;
+display: flex;
+margin: 5px;
+padding: 5px;
+font-size:60px;
+font-family: Helvetica;
+position: relative;
+bottom: 60px;
+
+}
+
+.wa {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    position: relative;
+    bottom:40px;
+}
+
+.img-wa{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    position: relative;
+    right: 130px;
+}
+
+.text-nomor {
+    margin: 5px;
+    padding: 5px;
+    font-size: 50px;
+    font-family: Arial;
+    position: relative;
+    top:50px;
+    right: 350px;
+
+}
+
+.gmail {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 15px;
+   
+}
+
+.text-gmail {
+    margin: 5px;
+    padding: 5px;
+    font-size: 50px;
+    font-family: Arial;
+    position: relative;
+    top:50px;
+    right: 100px;
+}
+
+.img-gmail {
+    border-radius: 20px;
+}
+
+/* css portofplio */
+
+.judul-paragraf-portofolio {
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    font-size:60px;
+    font-family: Helvetica;
+    position: relative;
+    bottom: 40px;
+}
+
+.paragraf-portofolio {
+    margin: 5px;
+    padding: 5px;
+    padding-left: 90px;
+    padding-right:90px ;
+    text-align: justify;
+    font-size:30px;
+    font-family: Arial;
+    position: relative;
+    bottom : 30px;
+}
+
+.Hasil-design {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.img-hasil {
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
